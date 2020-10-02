@@ -1,0 +1,33 @@
+//assignment-01
+
+
+#include<stdio.h>
+main(){
+    int i,j;
+    
+    for(i=1; i<=5; i++){
+        
+        for(j=1; j<=i; j++)
+            printf("* ");
+        
+        printf("\n");
+    }
+}
+
+
+//assignmsnt-02
+
+
+#include<stdio.h>
+main(){
+    int i,j,b=0;
+    
+    for(i=1; i<=5; i++){
+        
+        for(j=1; j<=i; j++){
+           b=b+1;
+            printf("%d ",b);
+           }
+        printf("\n");
+    }
+}
